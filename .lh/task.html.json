@@ -1,0 +1,90 @@
+{
+    "sourceFile": "task.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1677047814258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677049099838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,30 +7,14 @@\n     <title>Document</title>\n     <link rel=\"stylesheet\" href=\"task.css\">\n </head>\n <body>\n-    <div class=\"box-container\">\n-    <div class=\"box1\">\n-    <header id=\"logo\"><img src=\"diprella.JPG\"  height=\"40px\"</header>\n-    <b>Diprella</b>\n-    <h1>Login to Your Account</h1>\n-    <p>Login using social network</p>\n-        <div class=\"logo\">\n-            <a href=\"#\"><img src=\"facebook.png\" height=\"30px\"</a>\n-            <a href=\"#\"><img src=\"googe plus.png\" height=\"30px\"</a>\n-            <a href=\"#\"><img src=\"linkedin.png\" height=\"30px\"</a>\n-            <p>.......OR.......</p>\n-           </div>\n-           <div class=\"form-input\">\n-            <input class=\"text\" placeholder=\"Email\">\n-            <input class=\"Password\" placeholder=\"Passsword\">\n-           </div>\n+    <div class=\"container\">\n+        <div class=\"box1\">\n+        <header id=\"logo\"><img src=\"diprella.JPG\" height=\"40px\">\n+        <b>Diprella</b></header>\n+        <h1>Login to Your Account</h1>\n         </div>\n-        <div-2 class=\"box2\">\n-    \n-    \n-\n-        </div>\n-\n+        <div class=\"box2\"></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677049211319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div class=\"container\">\n         <div class=\"box1\">\n         <header id=\"logo\"><img src=\"diprella.JPG\" height=\"40px\">\n         <b>Diprella</b></header>\n-        <h1>Login to Your Account</h1>\n+        <h1></h1>\n         </div>\n         <div class=\"box2\"></div>\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1677049554586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n </head>\n <body>\n     <div class=\"container\">\n         <div class=\"box1\">\n-        <header id=\"logo\"><img src=\"diprella.JPG\" height=\"40px\">\n+        <header id=\"logo\"><img src=\"diprella.JPG\"height=\"40px\">\n         <b>Diprella</b></header>\n         <h1></h1>\n         </div>\n         <div class=\"box2\"></div>\n"
+                },
+                {
+                    "date": 1677049673094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div class=\"container\">\n         <div class=\"box1\">\n         <header id=\"logo\"><img src=\"diprella.JPG\"height=\"40px\">\n         <b>Diprella</b></header>\n-        <h1></h1>\n+        <h1>Login to Your Account</h1>\n         </div>\n         <div class=\"box2\"></div>\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1677050172139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,15 @@\n         <div class=\"box1\">\n         <header id=\"logo\"><img src=\"diprella.JPG\"height=\"40px\">\n         <b>Diprella</b></header>\n         <h1>Login to Your Account</h1>\n+        <p>Login using social networks</p>\n+        <div class=\"logo\">\n+        <a href=\"#\"><img src=\"facebook.png\"</a>\n+        <a href=\"#\"><img src=\"googe plus.png\"</a>\n+        <a href=\"#\"><img src=\"linkedin.png\"</a>\n         </div>\n+        </div>\n         <div class=\"box2\"></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677051018484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,14 @@\n         <a href=\"#\"><img src=\"facebook.png\"</a>\n         <a href=\"#\"><img src=\"googe plus.png\"</a>\n         <a href=\"#\"><img src=\"linkedin.png\"</a>\n         </div>\n+        <div class=\"form-input\">\n+            <h4>.........OR..........</h4>\n+            <input type=\"text\" placeholder=\"Email\">\n+            <input type=\"Password\" placeholder=\"Password\">\n         </div>\n+        </div>\n         <div class=\"box2\"></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677052676716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,12 @@\n         <a href=\"#\"><img src=\"facebook.png\"</a>\n         <a href=\"#\"><img src=\"googe plus.png\"</a>\n         <a href=\"#\"><img src=\"linkedin.png\"</a>\n         </div>\n-        <div class=\"form-input\">\n-            <h4>.........OR..........</h4>\n-            <input type=\"text\" placeholder=\"Email\">\n-            <input type=\"Password\" placeholder=\"Password\">\n+        <h4>.......OR..........</h4>\n+        <div class=\"form\">\n+         <input type=\"text\" placeholder=\"Email\">\n+        <input type=\"Password\" placeholder=\"Password\">\n         </div>\n         </div>\n         <div class=\"box2\"></div>\n     </div>\n"
+                },
+                {
+                    "date": 1677052993482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n         <h4>.......OR..........</h4>\n         <div class=\"form\">\n          <input type=\"text\" placeholder=\"Email\">\n         <input type=\"Password\" placeholder=\"Password\">\n+        <button>Sign in</button>\n         </div>\n         </div>\n         <div class=\"box2\"></div>\n     </div>\n"
+                },
+                {
+                    "date": 1677054915686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n         <h4>.......OR..........</h4>\n         <div class=\"form\">\n          <input type=\"text\" placeholder=\"Email\">\n         <input type=\"Password\" placeholder=\"Password\">\n-        <button>Sign in</button>\n+        <center><button>Sign in</button></center>\n         </div>\n         </div>\n         <div class=\"box2\"></div>\n     </div>\n"
+                },
+                {
+                    "date": 1677055131975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n         <a href=\"#\"><img src=\"googe plus.png\"</a>\n         <a href=\"#\"><img src=\"linkedin.png\"</a>\n         </div>\n         <h4>.......OR..........</h4>\n-        <div class=\"form\">\n-         <input type=\"text\" placeholder=\"Email\">\n+        <div class=\"form-input\">\n+        <input type=\"text\" placeholder=\"Email\">\n         <input type=\"Password\" placeholder=\"Password\">\n         <center><button>Sign in</button></center>\n         </div>\n         </div>\n"
+                },
+                {
+                    "date": 1677055269057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n-<html lang=\"en\">\n+<html lang=\"en_us\">\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
+                },
+                {
+                    "date": 1677055368036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,10 @@\n         <input type=\"Password\" placeholder=\"Password\">\n         <center><button>Sign in</button></center>\n         </div>\n         </div>\n-        <div class=\"box2\"></div>\n+        <div class=\"box2\">\n+            \n+        </div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677055702048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,14 +21,14 @@\n         </div>\n         <h4>.......OR..........</h4>\n         <div class=\"form-input\">\n         <input type=\"text\" placeholder=\"Email\">\n-        <input type=\"Password\" placeholder=\"Password\">\n+       <center></center> <input type=\"Password\" placeholder=\"Password\">\n         <center><button>Sign in</button></center>\n         </div>\n         </div>\n         <div class=\"box2\">\n-            \n+\n         </div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677057753003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <center><button>Sign in</button></center>\n         </div>\n         </div>\n         <div class=\"box2\">\n-\n+        <h1>New Here?</h1>\n         </div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677058387982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <center><button>Sign in</button></center>\n         </div>\n         </div>\n         <div class=\"box2\">\n-        <h1>New Here?</h1>\n+        <h2>New Here?</h2>\n         </div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677059686025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Document</title>\n     <link rel=\"stylesheet\" href=\"task.css\">\n </head>\n <body>\n-    <div class=\"container\">\n+    <div class=\"box-container\">\n         <div class=\"box1\">\n         <header id=\"logo\"><img src=\"diprella.JPG\"height=\"40px\">\n         <b>Diprella</b></header>\n         <h1>Login to Your Account</h1>\n"
+                },
+                {
+                    "date": 1677065983474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,11 @@\n         <center><button>Sign in</button></center>\n         </div>\n         </div>\n         <div class=\"box2\">\n-        <h2>New Here?</h2>\n+        <div><h2>New Here?</h2></div>\n+        <p>Sign up and discover a great <br>amount of new opportunities!</p>\n+        <button>Sign up</button>\n         </div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677066346564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         </div>\n         <div class=\"box2\">\n         <div><h2>New Here?</h2></div>\n         <p>Sign up and discover a great <br>amount of new opportunities!</p>\n-        <button>Sign up</button>\n+        <center><button>Sign Up</button></center>\n         </div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1677047814258,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n    <link rel=\"stylesheet\" href=\"task.css\">\n</head>\n<body>\n    <div class=\"box-container\">\n    <div class=\"box1\">\n    <header id=\"logo\"><img src=\"diprella.JPG\"  height=\"40px\"</header>\n    <b>Diprella</b>\n    <h1>Login to Your Account</h1>\n    <p>Login using social network</p>\n        <div class=\"logo\">\n            <a href=\"#\"><img src=\"facebook.png\" height=\"30px\"</a>\n            <a href=\"#\"><img src=\"googe plus.png\" height=\"30px\"</a>\n            <a href=\"#\"><img src=\"linkedin.png\" height=\"30px\"</a>\n            <p>.......OR.......</p>\n           </div>\n           <div class=\"form-input\">\n            <input class=\"text\" placeholder=\"Email\">\n            <input class=\"Password\" placeholder=\"Passsword\">\n           </div>\n        </div>\n        <div-2 class=\"box2\">\n    \n    \n\n        </div>\n\n    </div>\n</body>\n</html>"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.box1 {
+    background-color: bisque;
+    height: 900px;
+    width: 800px;
+}
+.box2{
+    background-color: #20bdc2;
+    height: 900px;
+    width: 300px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.logo img {
+    height: 30px;
+    text-align: center;
+}
+.logo a {
+    text-decoration: none;
+}
+div .logo {
+    text-decoration: none;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+input {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,202 @@
+{
+    "sourceFile": "task.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 46,
+            "patches": [
+                {
+                    "date": 1677049099821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677049211320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,15 +5,15 @@\n     display: flex;\n }\n .box1 {\n     background-color: bisque;\n-    height: 500px;\n-    width: 600px;\n+    height: 900px;\n+    width: 700px;\n }\n .box2{\n     background-color: #20bdc2;\n-    height: 400px;\n-    width: 400px;\n+    height: 900px;\n+    width: 300px;\n }\n h1 {\n     text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677049246877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     box-sizing: border-box;\n }\n .container{\n     display: flex;\n+    max-width: 1000px;\n }\n .box1 {\n     background-color: bisque;\n     height: 900px;\n"
+                },
+                {
+                    "date": 1677049283591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n }\n .container{\n     display: flex;\n     max-width: 1000px;\n+    width: 200%;\n }\n .box1 {\n     background-color: bisque;\n     height: 900px;\n"
+                },
+                {
+                    "date": 1677049347780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,15 @@\n }\n .container{\n     display: flex;\n     max-width: 1000px;\n-    width: 200%;\n+    width: 600%;\n }\n .box1 {\n     background-color: bisque;\n+    max-width: 600px;\n+    width: 400%;\n     height: 900px;\n-    width: 700px;\n }\n .box2{\n     background-color: #20bdc2;\n     height: 900px;\n"
+                },
+                {
+                    "date": 1677049385460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\n .container{\n     display: flex;\n     max-width: 1000px;\n-    width: 600%;\n+    width: 700%;\n }\n .box1 {\n     background-color: bisque;\n     max-width: 600px;\n@@ -13,10 +13,11 @@\n     height: 900px;\n }\n .box2{\n     background-color: #20bdc2;\n+    max-width: 100px;\n     height: 900px;\n-    width: 300px;\n+    width: 300%;\n }\n h1 {\n     text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677049401993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n .box2{\n     background-color: #20bdc2;\n     max-width: 100px;\n     height: 900px;\n-    width: 300%;\n+    width: 400%;\n }\n h1 {\n     text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677049448210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n .box2{\n     background-color: #20bdc2;\n     max-width: 100px;\n     height: 900px;\n+    padding: 300px;\n     width: 400%;\n }\n h1 {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1677049486680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n }\n .box1 {\n     background-color: bisque;\n     max-width: 600px;\n+    padding: 600px;\n     width: 400%;\n     height: 900px;\n }\n .box2{\n"
+                },
+                {
+                    "date": 1677049628335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,24 +2,18 @@\n     box-sizing: border-box;\n }\n .container{\n     display: flex;\n-    max-width: 1000px;\n-    width: 700%;\n }\n .box1 {\n     background-color: bisque;\n-    max-width: 600px;\n-    padding: 600px;\n-    width: 400%;\n     height: 900px;\n+    width: 800px;\n }\n .box2{\n     background-color: #20bdc2;\n-    max-width: 100px;\n     height: 900px;\n-    padding: 300px;\n-    width: 400%;\n+    width: 400px;\n }\n h1 {\n     text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677050172140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,15 @@\n     width: 400px;\n }\n h1 {\n     text-align: center;\n+}\n+p {\n+    text-align: center;\n+}\n+.logo img {\n+    height: 30px;\n+    text-align: center;\n+}\n+.logo a {\n+    text-decoration: none;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677050242713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,9 @@\n     text-align: center;\n }\n .logo a {\n     text-decoration: none;\n+}\n+div .logo {\n+    text-decoration: none;\n+    text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677051018483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n }\n .box2{\n     background-color: #20bdc2;\n     height: 900px;\n-    width: 400px;\n+    width: 300px;\n }\n h1 {\n     text-align: center;\n }\n@@ -29,5 +29,10 @@\n }\n div .logo {\n     text-decoration: none;\n     text-align: center;\n+}\n+h4 {\n+    text-align: center;\n+}.form-input {\n+    display: flex;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677051483904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,12 @@\n     text-align: center;\n }\n h4 {\n     text-align: center;\n-}.form-input {\n+}\n+input {\n     display: flex;\n+    width: 100%;\n+    padding: 10px;\n+    margin-top: 10px;\n+    border-radius: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677051561823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n .container{\n     display: flex;\n }\n .box1 {\n-    background-color: bisque;\n+    background-color: white;\n     height: 900px;\n     width: 800px;\n }\n .box2{\n@@ -35,9 +35,11 @@\n     text-align: center;\n }\n input {\n     display: flex;\n-    width: 100%;\n+    width: 80%;\n     padding: 10px;\n+    margin-left: auto;\n+    margin-right: auto;\n     margin-top: 10px;\n     border-radius: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677052676722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,13 +33,15 @@\n }\n h4 {\n     text-align: center;\n }\n+.box1 input {\n+max-width: 500px;\n+width: 100%;\n+margin-left: auto;\n+margin-right: auto;\n+\n+}\n input {\n-    display: flex;\n\\ No newline at end of file\n-    width: 80%;\n-    padding: 10px;\n-    margin-left: auto;\n-    margin-right: auto;\n-    margin-top: 10px;\n-    border-radius: 20px;\n-}\n+\n+    \n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677052837739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,7 +41,14 @@\n margin-right: auto;\n \n }\n input {\n+    display: block;\n+    background-color: blanchedalmond;\n+   border: none;\n\\ No newline at end of file\n+   padding: 10px;\n+   width: 100%;\n+   margin-left: auto;\n+   margin-right: auto;\n \n     \n-    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677052993501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,12 +40,14 @@\n margin-left: auto;\n margin-right: auto;\n \n }\n-input {\n+input  {\n     display: block;\n     background-color: blanchedalmond;\n    border: none;\n+   border-radius: 10px;\n+   border-bottom: 10px;\n    padding: 10px;\n    width: 100%;\n    margin-left: auto;\n    margin-right: auto;\n"
+                },
+                {
+                    "date": 1677053601642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,16 +41,22 @@\n margin-right: auto;\n \n }\n input  {\n-    display: block;\n-    background-color: blanchedalmond;\n+    background-color: rgb(241, 241, 238);\n    border: none;\n+   margin-block-end: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n    width: 100%;\n    margin-left: auto;\n-   margin-right: auto;\n-\n\\ No newline at end of file\n-    \n-}\n+   margin-right: auto; \n+}\n+ button {\n+    width: 20%;\n+    margin-left: auto;\n+    text-align: center;\n+    margin-right: auto;\n+    border: none;\n+    padding: 10px;\n+}\n"
+                },
+                {
+                    "date": 1677053641334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,11 +52,10 @@\n    margin-left: auto;\n    margin-right: auto; \n }\n  button {\n-    width: 20%;\n+    width: 100%;\n     margin-left: auto;\n-    text-align: center;\n     margin-right: auto;\n     border: none;\n     padding: 10px;\n }\n"
+                },
+                {
+                    "date": 1677053707610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,9 @@\n    margin-right: auto; \n }\n  button {\n     width: 100%;\n+    border-radius: 30px;\n     margin-left: auto;\n     margin-right: auto;\n     border: none;\n     padding: 10px;\n"
+                },
+                {
+                    "date": 1677053928740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,13 +33,11 @@\n }\n h4 {\n     text-align: center;\n }\n-.box1 input {\n+ input {\n max-width: 500px;\n width: 100%;\n-margin-left: auto;\n-margin-right: auto;\n \n }\n input  {\n     background-color: rgb(241, 241, 238);\n"
+                },
+                {
+                    "date": 1677054982341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,15 +33,17 @@\n }\n h4 {\n     text-align: center;\n }\n- input {\n+ box1 input {\n max-width: 500px;\n width: 100%;\n+margin-left: auto;\n+margin-right: auto;\n \n }\n input  {\n-    background-color: rgb(241, 241, 238);\n+background-color: rgb(241, 241, 238);\n    border: none;\n    margin-block-end: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n@@ -50,9 +52,9 @@\n    margin-left: auto;\n    margin-right: auto; \n }\n  button {\n-    width: 100%;\n+    width: 40%;\n     border-radius: 30px;\n     margin-left: auto;\n     margin-right: auto;\n     border: none;\n"
+                },
+                {
+                    "date": 1677055002773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n    margin-block-end: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n-   width: 100%;\n+   width: 600%;\n    margin-left: auto;\n    margin-right: auto; \n }\n  button {\n"
+                },
+                {
+                    "date": 1677055131977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,25 +33,24 @@\n }\n h4 {\n     text-align: center;\n }\n- box1 input {\n+.box1 input {\n max-width: 500px;\n width: 100%;\n margin-left: auto;\n margin-right: auto;\n \n }\n input  {\n-background-color: rgb(241, 241, 238);\n+  background-color: rgb(241, 241, 238);\n    border: none;\n-   margin-block-end: 10px;\n+   margin-bottom: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n-   width: 600%;\n-   margin-left: auto;\n-   margin-right: auto; \n+   width: 60%\n+  \n }\n  button {\n     width: 40%;\n     border-radius: 30px;\n"
+                },
+                {
+                    "date": 1677055207373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,15 +36,14 @@\n }\n .box1 input {\n max-width: 500px;\n width: 100%;\n-margin-left: auto;\n-margin-right: auto;\n-\n }\n-input  {\n+input p {\n   background-color: rgb(241, 241, 238);\n    border: none;\n+   margin-left: auto;\n+   margin-left: auto;\n    margin-bottom: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n"
+                },
+                {
+                    "date": 1677055269060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,13 +37,11 @@\n .box1 input {\n max-width: 500px;\n width: 100%;\n }\n-input p {\n+input  {\n   background-color: rgb(241, 241, 238);\n    border: none;\n-   margin-left: auto;\n-   margin-left: auto;\n    margin-bottom: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n"
+                },
+                {
+                    "date": 1677055368038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,9 @@\n    margin-bottom: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n+   margin-left: 40px;\n    width: 60%\n   \n }\n  button {\n@@ -54,5 +55,7 @@\n     margin-left: auto;\n     margin-right: auto;\n     border: none;\n     padding: 10px;\n+    color: white;\n+    background-color: #20bdc2;\n }\n"
+                },
+                {
+                    "date": 1677055410533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,10 @@\n }\n .box1 input {\n max-width: 500px;\n width: 100%;\n+margin-left: 70px;\n+margin-right: 70px;\n }\n input  {\n   background-color: rgb(241, 241, 238);\n    border: none;\n"
+                },
+                {
+                    "date": 1677055500387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,11 +35,10 @@\n     text-align: center;\n }\n .box1 input {\n max-width: 500px;\n-width: 100%;\n-margin-left: 70px;\n-margin-right: 70px;\n+width: 80%;\n+margin-left: \n }\n input  {\n   background-color: rgb(241, 241, 238);\n    border: none;\n@@ -47,9 +46,9 @@\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n    margin-left: 40px;\n-   width: 60%\n+   width: 40%\n   \n }\n  button {\n     width: 40%;\n"
+                },
+                {
+                    "date": 1677055589347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,23 +36,25 @@\n }\n .box1 input {\n max-width: 500px;\n width: 80%;\n-margin-left: \n+margin-left: auto;\n+margin-right: auto;\n }\n input  {\n   background-color: rgb(241, 241, 238);\n    border: none;\n    margin-bottom: 10px;\n    border-radius: 10px;\n    border-bottom: 10px;\n    padding: 10px;\n-   margin-left: 40px;\n-   width: 40%\n+   margin-left: auto;\n+   margin-right: auto;\n+   width: 100%\n   \n }\n  button {\n-    width: 40%;\n+    width: 30%;\n     border-radius: 30px;\n     margin-left: auto;\n     margin-right: auto;\n     border: none;\n"
+                },
+                {
+                    "date": 1677055702053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n }\n .box2{\n     background-color: #20bdc2;\n     height: 900px;\n-    width: 300px;\n+    width: 500px;\n }\n h1 {\n     text-align: center;\n }\n"
+                },
+                {
+                    "date": 1677057218978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n     width: 800px;\n }\n .box2{\n     background-color: #20bdc2;\n-    height: 900px;\n-    width: 500px;\n+    height: 800px;\n+    width: 400px;\n }\n h1 {\n     text-align: center;\n }\n@@ -33,31 +33,24 @@\n }\n h4 {\n     text-align: center;\n }\n-.box1 input {\n-max-width: 500px;\n-width: 80%;\n-margin-left: auto;\n-margin-right: auto;\n-}\n+\n input  {\n+    display: flex;\n   background-color: rgb(241, 241, 238);\n-   border: none;\n-   margin-bottom: 10px;\n-   border-radius: 10px;\n-   border-bottom: 10px;\n-   padding: 10px;\n-   margin-left: auto;\n-   margin-right: auto;\n-   width: 100%\n-  \n+  max-width: 800px;\n+  width: 50%;\n+  padding: 10px;\n+  border: none;\n+  margin-bottom: 10px;\n+  border-radius: 20px;\n+  margin-left: auto;\n+  margin-right: auto;\n }\n  button {\n     width: 30%;\n     border-radius: 30px;\n-    margin-left: auto;\n-    margin-right: auto;\n     border: none;\n     padding: 10px;\n     color: white;\n     background-color: #20bdc2;\n"
+                },
+                {
+                    "date": 1677057753002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,4 +54,8 @@\n     padding: 10px;\n     color: white;\n     background-color: #20bdc2;\n }\n+.box2 h1 {\n+    color: aqua;\n+    text-decoration: none;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677057919840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     box-sizing: border-box;\n }\n .container{\n     display: flex;\n+    max-width: 1000px;\n }\n .box1 {\n     background-color: white;\n     height: 900px;\n@@ -35,9 +36,9 @@\n     text-align: center;\n }\n \n input  {\n-    display: flex;\n+  display: flex;\n   background-color: rgb(241, 241, 238);\n   max-width: 800px;\n   width: 50%;\n   padding: 10px;\n@@ -55,7 +56,6 @@\n     color: white;\n     background-color: #20bdc2;\n }\n .box2 h1 {\n-    color: aqua;\n-    text-decoration: none;\n+    color: white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677058387980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,10 @@\n     width: 800px;\n }\n .box2{\n     background-color: #20bdc2;\n-    height: 800px;\n     width: 400px;\n+    height: 700px;\n }\n h1 {\n     text-align: center;\n }\n@@ -55,7 +55,10 @@\n     padding: 10px;\n     color: white;\n     background-color: #20bdc2;\n }\n-.box2 h1 {\n+.box2 h2 {\n     color: white;\n+    padding: 20px;\n+    text-align: center;\n+    m\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677059686029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n * {\n     box-sizing: border-box;\n }\n-.container{\n+.box-container {\n     display: flex;\n     max-width: 1000px;\n }\n .box1 {\n@@ -11,10 +11,11 @@\n     width: 800px;\n }\n .box2{\n     background-color: #20bdc2;\n-    width: 400px;\n+    width: 400%;\n     height: 700px;\n+    max-width: 700px;\n }\n h1 {\n     text-align: center;\n }\n@@ -57,8 +58,11 @@\n     background-color: #20bdc2;\n }\n .box2 h2 {\n     color: white;\n-    padding: 20px;\n+    padding: 100px;\n     text-align: center;\n-    m\n+    font-size: large;\n+    font-size: 30px;\n+    margin-top: ;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677059719218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     display: flex;\n     max-width: 1000px;\n }\n .box1 {\n-    background-color: white;\n+    background-color: rgb(142, 43, 43);\n     height: 900px;\n     width: 800px;\n }\n .box2{\n"
+                },
+                {
+                    "date": 1677059913761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,15 +7,18 @@\n }\n .box1 {\n     background-color: rgb(142, 43, 43);\n     height: 900px;\n-    width: 800px;\n+    max-width: 700px;\n+    width: 800%;\n+    margin-top: auto;\n }\n .box2{\n     background-color: #20bdc2;\n     width: 400%;\n-    height: 700px;\n+    height: 900px;\n     max-width: 700px;\n+    margin-bottom: auto;\n }\n h1 {\n     text-align: center;\n }\n"
+                },
+                {
+                    "date": 1677059943806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n .box1 {\n     background-color: rgb(142, 43, 43);\n     height: 900px;\n     max-width: 700px;\n-    width: 800%;\n+    width: 900%;\n     margin-top: auto;\n }\n .box2{\n     background-color: #20bdc2;\n"
+                },
+                {
+                    "date": 1677059968546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n .box2{\n     background-color: #20bdc2;\n     width: 400%;\n     height: 900px;\n-    max-width: 700px;\n+    max-width: 600px;\n     margin-bottom: auto;\n }\n h1 {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1677060503391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,20 +5,17 @@\n     display: flex;\n     max-width: 1000px;\n }\n .box1 {\n-    background-color: rgb(142, 43, 43);\n     height: 900px;\n     max-width: 700px;\n     width: 900%;\n-    margin-top: auto;\n }\n .box2{\n     background-color: #20bdc2;\n     width: 400%;\n     height: 900px;\n     max-width: 600px;\n-    margin-bottom: auto;\n }\n h1 {\n     text-align: center;\n }\n@@ -61,11 +58,11 @@\n     background-color: #20bdc2;\n }\n .box2 h2 {\n     color: white;\n-    padding: 100px;\n+}\n+div h2 {\n     text-align: center;\n-    font-size: large;\n-    font-size: 30px;\n-    margin-top: ;\n-    \n+    margin-top: auto;\n+    padding-top: 160px;\n+    font-size: 50px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677065983484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,10 @@\n     text-align: center;\n }\n h4 {\n     text-align: center;\n+    color: black;\n+    text-decoration: none;\n }\n \n input  {\n   display: flex;\n@@ -63,6 +65,10 @@\n div h2 {\n     text-align: center;\n     margin-top: auto;\n     padding-top: 160px;\n-    font-size: 50px;\n+    font-size: 35px;\n+}\n+.box2 p {\n+    color: white;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677066346573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,14 +11,15 @@\n     width: 900%;\n }\n .box2{\n     background-color: #20bdc2;\n-    width: 400%;\n+    width: 300%;\n     height: 900px;\n     max-width: 600px;\n }\n h1 {\n     text-align: center;\n+    font-size: 40px;\n }\n p {\n     text-align: center;\n }\n@@ -32,8 +33,11 @@\n div .logo {\n     text-decoration: none;\n     text-align: center;\n }\n+div a {\n+    text-decoration: none;\n+}\n h4 {\n     text-align: center;\n     color: black;\n     text-decoration: none;\n@@ -69,6 +73,10 @@\n     font-size: 35px;\n }\n .box2 p {\n     color: white;\n-    \n+    font-size: 25px;\n+}\n+.box2 button{\n+    color: black;\n+    background-color: white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677066385741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     width: 900%;\n }\n .box2{\n     background-color: #20bdc2;\n-    width: 300%;\n+    width: 200%;\n     height: 900px;\n     max-width: 600px;\n }\n h1 {\n"
+                },
+                {
+                    "date": 1677066415537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n     width: 900%;\n }\n .box2{\n     background-color: #20bdc2;\n-    width: 200%;\n+    width: 100%;\n     height: 900px;\n-    max-width: 600px;\n+    max-width: 400px;\n }\n h1 {\n     text-align: center;\n     font-size: 40px;\n"
+                },
+                {
+                    "date": 1677066441805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n     width: 900%;\n }\n .box2{\n     background-color: #20bdc2;\n-    width: 100%;\n+    width: 200%;\n     height: 900px;\n-    max-width: 400px;\n+    max-width: 500px;\n }\n h1 {\n     text-align: center;\n     font-size: 40px;\n"
+                }
+            ],
+            "date": 1677049099821,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\n.container{\n    display: flex;\n}\n.box1 {\n    background-color: bisque;\n    height: 500px;\n    width: 600px;\n}\n.box2{\n    background-color: #20bdc2;\n    height: 400px;\n    width: 400px;\n}\nh1 {\n    text-align: center;\n}"
+        }
+    ]
+}

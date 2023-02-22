@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-container {
+display: flex;
+}
+.box1 {
+    background-color: yellowgreen;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.box2 {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+}

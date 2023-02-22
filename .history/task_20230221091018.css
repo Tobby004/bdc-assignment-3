@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-container {
+display: flex;
+}
+.box1 {
+    background-color: white;
+    display: flex;
+    width: 600px;
+    height: 700px;
+}
+.box2 {
+    background-color: blue;
+    height: 700px;
+    width: 400px;
+}
+header img {
+    height: 70px;
+}
+<h1>

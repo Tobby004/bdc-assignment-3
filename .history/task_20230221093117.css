@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-container {
+   display: flex;
+   max-width: 400%;
+}
+.box1 {
+    background-color: white;
+    display: flex;
+    width: 800px;
+    height: 700px;
+}
+.box2 {
+    background-color: blue;
+    height: 700px;
+    width: 300px;
+}
+div h1{
+    text-align: center;
+
+}
+p {
+    text-align: center;
+}
+div .logo {
+    text-align: center;
+}

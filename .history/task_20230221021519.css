@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+box.container {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px red;
+}
+.box1 {
+     width: 500px;
+     height: 900px;
+     background-color: grey;
+     border: 10px;
+     border-color: blue;
+}
+.box2 {
+width: 300px;
+height: 900px;
+background-color: blue;
+}
+body {
+    background-color: white;
+}
+header img {
+    width: 100px;
+
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    width: 200%;
+}
+.box1 {
+    background-color: bisque;
+    height: 900px;
+    width: 700px;
+}
+.box2{
+    background-color: #20bdc2;
+    height: 900px;
+    width: 300px;
+}
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-container {
+   display: flex;
+
+}
+.box1 {
+    background-color: white;
+    display: flex;
+    width: 800px;
+    height: 700px;
+}
+.box2 {
+    background-color: #20dbc2;
+    height: 400px;
+    width: 300px;
+} 
+
+p {
+    text-align: center;
+}
+div .logo {
+    text-align: center;
+}
+div a{
+    text-decoration: none;
+}
+div p{
+    text-align: center;
+    color: black;
+}
+.form-input {
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    
+}

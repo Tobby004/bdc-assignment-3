@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-container {
+display: flex;
+}
+.box1 {
+    background-color: white;
+    display: flex;
+    width: 600px;
+    height: 700px;
+}
+.box2 {
+    background-color: blue;
+    height: 700px;
+    width: 400px;
+}
+header img {
+    height: 70px;
+}
+div b {
+    color: black;
+}
+.logo a {
+    text-decoration: none;
+    height: 10px;
+  text-align: center;
+}
